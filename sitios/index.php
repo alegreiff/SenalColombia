@@ -49,7 +49,7 @@
               <li class="active"><a href="#">Home</a></li>
               <li><a href="anonimas/">Anónimas</a></li>
               <li><a href="aislados/">Aislados</a></li>
-              <li><a href="dnza/">Danza</a></li>
+              <li><a href="danza/">Danza</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                 <ul class="dropdown-menu">
