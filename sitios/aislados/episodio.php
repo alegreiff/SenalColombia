@@ -129,20 +129,30 @@
           </div><!-- FIN md 12 -->
         </div>
         <div class="row">
+          <div class="col-md-1"><img src="http://lorempixel.com/150/150/sports/1" class="img-thumbnail" alt=""></div>
+          
+          <div class="col-md-3"><img src="http://lorempixel.com/450/220/sports/2" class="img-thumbnail" alt=""></div>
 
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-3"><a href="#"><img src="http://lorempixel.com/150/150/sports/1" class="img-thumbnail" alt=""></a></div>
-              <div class="col-md-3"><a href="#"><img src="http://lorempixel.com/150/150/sports/2" class="img-thumbnail" alt=""></a></div>
-              <div class="col-md-3"><a href="#"><img src="http://lorempixel.com/150/150/sports/3" class="img-thumbnail" alt=""></a></div>
-              <div class="col-md-3"><a href="#"><img src="http://lorempixel.com/150/150/sports/4" class="img-thumbnail" alt=""></a></div>
-            </div>
-           
-          </div>
-          <div class="col-md-6">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo, velit, consequuntur deserunt est ipsa commodi quae error laudantium ad porro dolore consequatur quia asperiores beatae optio repudiandae ab ratione.</p>
-          </div>          
+          <div class="col-md-2"><img src="http://lorempixel.com/300/150/sports/3" class="img-thumbnail" alt=""></div>
+
+          <div class="col-md-5"><img src="http://lorempixel.com/600/90/sports/4" class="img-thumbnail" alt=""></div>
+
+          <div class="col-md-1"><img src="http://lorempixel.com/150/150/people/1" class="img-thumbnail" alt=""></div>
         </div>
+        <div class="row">
+          <div class="col-md-2"><img src="http://lorempixel.com/300/150/people/2" class="img-thumbnail" alt=""></div>
+          
+          <div class="col-md-4"><img src="http://lorempixel.com/700/150/people/1" class="img-thumbnail" alt=""></div>
+
+          <div class="col-md-3"><img src="http://lorempixel.com/500/150/people/3" class="img-thumbnail" alt=""></div>
+
+          <div class="col-md-1"><img src="http://lorempixel.com/150/150/people/4" class="img-thumbnail" alt=""></div>
+
+          <div class="col-md-2"><img src="http://lorempixel.com/345/150/people/5" class="img-thumbnail" alt=""></div>
+        </div>
+
+          
+
         <div class="row">
 
         </div>
