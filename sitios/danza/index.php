@@ -27,11 +27,7 @@
   </head>
 
   <body>
-<div class="panel panel-default">
-  <div class="panel-body">
-     Basic panel example
-  </div>
-</div>
+
     <!-- Wrap all page content here -->
     <div id="wrap">
 
