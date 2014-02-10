@@ -129,9 +129,7 @@
           </div><!-- FIN md 12 -->
         </div>
         <div class="row">
-          <div class="col-md-6">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo, velit, consequuntur deserunt est ipsa commodi quae error laudantium ad porro dolore consequatur quia asperiores beatae optio repudiandae ab ratione.</p>
-          </div>
+
           <div class="col-md-6">
             <div class="row">
               <div class="col-md-3"><a href="#"><img src="http://lorempixel.com/150/150/sports/1" class="img-thumbnail" alt=""></a></div>
@@ -141,6 +139,9 @@
             </div>
            
           </div>
+          <div class="col-md-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo, velit, consequuntur deserunt est ipsa commodi quae error laudantium ad porro dolore consequatur quia asperiores beatae optio repudiandae ab ratione.</p>
+          </div>          
         </div>
         <div class="row">
 
