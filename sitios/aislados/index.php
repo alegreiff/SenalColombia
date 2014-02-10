@@ -80,21 +80,21 @@
                 <!-- Carousel items -->
                 <div class="carousel-inner">
                     <div class="active item">
-                        <img src="http://lorempixel.com/g/900/350/" alt="Slide 1">
+                        <img src="http://lorempixel.com/g/1450/350/" alt="Slide 1">
                         <div class="carousel-caption">
                           <h3>First slide label</h3>
                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="http://lorempixel.com/g/900/350/" alt="Slide 2">
+                        <img src="http://lorempixel.com/g/1450/350/" alt="Slide 2">
                         <div class="carousel-caption">
                           <h3>Second slide label</h3>
                           <p>Vestibulum quis quam ut magna consequat faucibus.</p>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="http://lorempixel.com/g/900/350/" alt="Slide 3">
+                        <img src="http://lorempixel.com/g/1450/350/" alt="Slide 3">
                         <div class="carousel-caption">
                           <h3>Third slide label</h3>
                           <p>Praesent commodo cursus magna, vel scelerisque nisl.</p>
