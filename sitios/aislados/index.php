@@ -70,6 +70,9 @@
 
       <!-- Begin page content -->
       <div class="container">
+        <div class="row visible-xs">
+          Ailados
+        </div>
         <div class="row hidden-xs">
           <div class="col-md-12">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -114,10 +117,10 @@
           </div><!-- FIN md 12 -->
         </div>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 col-xs-12">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo, velit, consequuntur deserunt est ipsa commodi quae error laudantium ad porro dolore consequatur quia asperiores beatae optio repudiandae ab ratione.</p>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 hidden-xs">
             <div class="video-container"><iframe width="560" height="315" src="http://www.youtube.com/embed/iedqsc7Kypw" frameborder="0"></iframe>
             </div>           
           </div>
