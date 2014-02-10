@@ -76,7 +76,8 @@
         <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
       </div>
       <div class="container">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div class="col-md-7">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Carousel indicators -->
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -115,6 +116,8 @@
         <span class="glyphicon glyphicon-chevron-right"></span>
     </a>
 </div>
+</div>
+<div class="col-md-5">Hola mundo</div>
       </div>
     </div>
 
