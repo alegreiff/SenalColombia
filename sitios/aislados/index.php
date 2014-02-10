@@ -133,9 +133,17 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo, velit, consequuntur deserunt est ipsa commodi quae error laudantium ad porro dolore consequatur quia asperiores beatae optio repudiandae ab ratione.</p>
           </div>
           <div class="col-md-6">
-<div class="video-container"><iframe width="560" height="315" src="http://www.youtube.com/embed/iedqsc7Kypw" frameborder="0"></iframe>
-</div>           
+            <div class="video-container"><iframe width="560" height="315" src="http://www.youtube.com/embed/iedqsc7Kypw" frameborder="0"></iframe>
+            </div>           
           </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2"><img src="http://lorempixel.com/g/150/150/" alt=""></div>
+          <div class="col-md-2"><img src="http://lorempixel.com/g/150/150/" alt=""></div>
+          <div class="col-md-2"><img src="http://lorempixel.com/g/150/150/" alt=""></div>
+          <div class="col-md-2"><img src="http://lorempixel.com/g/150/150/" alt=""></div>
+          <div class="col-md-2"><img src="http://lorempixel.com/g/150/150/" alt=""></div>
+          <div class="col-md-2"><img src="http://lorempixel.com/g/150/150/" alt=""></div>
         </div>
         <div class="page-header">
           <h1>recorrido de elementos</h1>
