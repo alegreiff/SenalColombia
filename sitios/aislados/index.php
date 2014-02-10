@@ -115,7 +115,12 @@
           <div class="col-md-6">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo, velit, consequuntur deserunt est ipsa commodi quae error laudantium ad porro dolore consequatur quia asperiores beatae optio repudiandae ab ratione.</p>
           </div>
-          <div class="col-md-6">VIDEO</div>
+          <div class="col-md-6">
+
+            <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+            <iframe allowfullscreen="" src="http://www.youtube.com/embed/6NbAAmDuv_8?feature=player_detailpage" frameborder="0"></iframe>
+            </div>            
+          </div>
         </div>
         <div class="page-header">
           <h1>Sticky footer with fixed navbar</h1>
