@@ -138,12 +138,12 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/150/150/sports/1" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://placehold.it/150x150" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/150/150/sports/3" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/150/150/sports/4" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/150/150/sports/5" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/150/150/sports/6" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
+          <div class="col-md-2 col-xs-6 col-sm-4"><a href="episodio.php"><img src="http://lorempixel.com/150/150/sports/1" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
+          <div class="col-md-2 col-xs-6 col-sm-4"><a href="episodio.php"><img src="http://placehold.it/150x150" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
+          <div class="col-md-2 col-xs-6 col-sm-4"><a href="episodio.php"><img src="http://lorempixel.com/150/150/sports/3" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
+          <div class="col-md-2 col-xs-6 col-sm-4"><a href="episodio.php"><img src="http://lorempixel.com/150/150/sports/4" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
+          <div class="col-md-2 col-xs-6 col-sm-4"><a href="episodio.php"><img src="http://lorempixel.com/150/150/sports/5" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
+          <div class="col-md-2 col-xs-6 col-sm-4"><a href="episodio.php"><img src="http://lorempixel.com/150/150/sports/6" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
         </div>
         <div class="page-header">
           <h1>recorrido de elementos</h1>
