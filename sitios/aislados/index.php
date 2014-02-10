@@ -70,7 +70,7 @@
 
       <!-- Begin page content -->
       <div class="container">
-        <div class="row">
+        <div class="row hidden-xs">
           <div class="col-md-12">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Carousel indicators -->
