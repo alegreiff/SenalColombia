@@ -24,6 +24,23 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+    .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
   </head>
 
   <body>
@@ -116,10 +133,8 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo, velit, consequuntur deserunt est ipsa commodi quae error laudantium ad porro dolore consequatur quia asperiores beatae optio repudiandae ab ratione.</p>
           </div>
           <div class="col-md-6">
-
-            <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
-            <iframe allowfullscreen="" src="http://www.youtube.com/embed/6NbAAmDuv_8?feature=player_detailpage" frameborder="0"></iframe>
-            </div>            
+<div class="video-container"><iframe width="560" height="315" src="http://www.youtube.com/embed/iedqsc7Kypw" frameborder="0"></iframe>
+</div>           
           </div>
         </div>
         <div class="page-header">
