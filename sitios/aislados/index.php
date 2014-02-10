@@ -111,6 +111,12 @@
             </div>            
           </div><!-- FIN md 12 -->
         </div>
+        <div class="row">
+          <div class="col-md-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo, velit, consequuntur deserunt est ipsa commodi quae error laudantium ad porro dolore consequatur quia asperiores beatae optio repudiandae ab ratione.</p>
+          </div>
+          <div class="col-md-6">VIDEO</div>
+        </div>
         <div class="page-header">
           <h1>Sticky footer with fixed navbar</h1>
         </div>
