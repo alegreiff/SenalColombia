@@ -133,17 +133,17 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo, velit, consequuntur deserunt est ipsa commodi quae error laudantium ad porro dolore consequatur quia asperiores beatae optio repudiandae ab ratione.</p>
           </div>
           <div class="col-md-6">
-            <div class="video-container"><iframe width="560" height="315" src="http://www.youtube.com/embed/iedqsc7Kypw" frameborder="0"></iframe>
-            </div>           
+            <div class="row">
+              <div class="col-md-3"><a href="#"><img src="http://lorempixel.com/150/150/sports/1" class="img-thumbnail" alt=""></a></div>
+              <div class="col-md-3"><a href="#"><img src="http://lorempixel.com/150/150/sports/2" class="img-thumbnail" alt=""></a></div>
+              <div class="col-md-3"><a href="#"><img src="http://lorempixel.com/150/150/sports/3" class="img-thumbnail" alt=""></a></div>
+              <div class="col-md-3"><a href="#"><img src="http://lorempixel.com/150/150/sports/4" class="img-thumbnail" alt=""></a></div>
+            </div>
+           
           </div>
         </div>
         <div class="row">
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/150/150/sports/1" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://placehold.it/150x150" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/150/150/sports/3" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/150/150/sports/4" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/150/150/sports/5" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/150/150/sports/6" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
+
         </div>
         <div class="page-header">
           <h1>recorrido de elementos</h1>
