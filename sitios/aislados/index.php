@@ -138,12 +138,12 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/g/150/150/" class="img-thumbnail" alt=""></a></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/g/150/150/" class="img-thumbnail" alt=""></a></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/g/150/150/" class="img-thumbnail" alt=""></a></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/g/150/150/" class="img-thumbnail" alt=""></a></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/g/150/150/" class="img-thumbnail" alt=""></a></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/g/150/150/" class="img-thumbnail" alt=""></a></div>
+          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/g/150/150/" class="img-thumbnail" alt=""></a><p><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
+          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/g/150/150/" class="img-thumbnail" alt=""></a><p><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
+          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/g/150/150/" class="img-thumbnail" alt=""></a><p><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
+          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/g/150/150/" class="img-thumbnail" alt=""></a><p><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
+          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/g/150/150/" class="img-thumbnail" alt=""></a><p><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
+          <div class="col-md-2 col-xs-6 col-sm-4"><a href="#"><img src="http://lorempixel.com/g/150/150/" class="img-thumbnail" alt=""></a><p><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
         </div>
         <div class="page-header">
           <h1>recorrido de elementos</h1>
