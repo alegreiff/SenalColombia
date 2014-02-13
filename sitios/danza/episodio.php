@@ -109,63 +109,32 @@
           </nav>
         </div>
 
-        <div class="row imagen_rio">
+        <div class="row imagen_rio_interna">
           <div class="col-md-12">
-            <a href="episodio.php"><img src="http://lorempixel.com/1200/220/people/3" alt="" class="img_responsive">
+          <img src="http://lorempixel.com/1200/220/people/3" alt="" class="img_responsive">
             <div class="overlay">
               <h2>Fuego</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, soluta, deserunt, illum, eaque quaerat autem iusto vel corporis aliquid assumenda sit placeat ea dicta quae ipsam quisquam quia nisi et.</p>              
-            </div></a>
-          </div>
-        </div>
-
-        <div class="row imagen_rio">
-          <div class="col-md-12">
-            <a href="episodio.php"><img src="http://lorempixel.com/1200/220/people/4" alt="" class="img_responsive">
-
-            
-            <div class="overlay">
-              <h2>Corrientes</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, soluta, deserunt, illum, eaque quaerat autem iusto vel corporis aliquid assumenda sit placeat ea dicta quae ipsam quisquam quia nisi et.</p>              
-            </div></a>
-          </div>
-        </div>
-
-        <div class="row imagen_rio">
-          <div class="col-md-12">
-            <a href="episodio.php"><img src="http://lorempixel.com/1200/220/people/6" alt="" class="img_responsive">
-
-            </a>
-            <div class="overlay">
-              <h2>Mestizajes</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, soluta, deserunt, illum, eaque quaerat autem iusto vel corporis aliquid assumenda sit placeat ea dicta quae ipsam quisquam quia nisi et.</p>              
+                            
             </div>
           </div>
         </div>
-
-        <div class="row imagen_rio">
-          <div class="col-md-12">
-            <a href="episodio.php"><img src="http://lorempixel.com/1200/220/people/9" alt="" class="img_responsive">
-
-            </a>
-            <div class="overlay">
-              <h2>Encuentros</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, soluta, deserunt, illum, eaque quaerat autem iusto vel corporis aliquid assumenda sit placeat ea dicta quae ipsam quisquam quia nisi et.</p>              
-            </div>
+        <div class="row">
+          <div class="col-md-6 hidden-xs">
+            <div class="video-container"><iframe width="560" height="315" src="http://www.youtube.com/embed/iedqsc7Kypw" frameborder="0"></iframe>
+            </div>           
+          </div>
+          <div class="col-md-6 col-xs-12">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, minus, voluptatibus, necessitatibus quas nulla quasi reiciendis possimus numquam repellat ea libero eligendi dignissimos. Quaerat, veniam praesentium alias doloremque error cupiditate.
           </div>
         </div>
 
-        <div class="row imagen_rio">
-          <div class="col-md-12">
-            <a href="episodio.php"><img src="http://lorempixel.com/1200/220/people/2" alt="" class="img_responsive">
 
-            </a>
-            <div class="overlay">
-              <h2>Origen</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, soluta, deserunt, illum, eaque quaerat autem iusto vel corporis aliquid assumenda sit placeat ea dicta quae ipsam quisquam quia nisi et.</p>              
-            </div>
-          </div>
-        </div>
+
+
+
+
+
+
         <div class="page-header">
           <h1>Sticky footer with fixed navbar</h1>
         </div>
