@@ -31,6 +31,12 @@
 .imagen_rio_interna{
 	margin-bottom: 2em;
 }
+.redesSociales{
+	margin-bottom: 1em;
+	border: 1px lime dotted;
+}
+
+
 
 
 @media (max-width: 768px) {

@@ -16,6 +16,7 @@
     <!-- Custom styles for this template -->
     <link href="../css/sticky-footer-navbar.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/ekko-lightbox.min.css">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -120,13 +121,36 @@
         </div>
         <div class="row">
           <div class="col-md-6 hidden-xs">
-            <div class="video-container"><iframe width="560" height="315" src="http://www.youtube.com/embed/iedqsc7Kypw" frameborder="0"></iframe>
+            <div class="video-container"><iframe width="560" height="315" src="http://www.youtube.com/embed/iedqsc7Kypw?wmode=transparent" frameborder="0"></iframe>
             </div>           
           </div>
           <div class="col-md-6 col-xs-12">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, minus, voluptatibus, necessitatibus quas nulla quasi reiciendis possimus numquam repellat ea libero eligendi dignissimos. Quaerat, veniam praesentium alias doloremque error cupiditate.
+            <p class="redesSociales"> compartir en redes </p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, minus, voluptatibus, necessitatibus quas nulla quasi reiciendis possimus numquam repellat ea libero eligendi dignissimos. Quaerat, veniam praesentium alias doloremque error cupiditate.</p>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-2 col-md-offset-1"><span class="glyphicon glyphicon-volume-down"> </span> </div>
+          <div class="col-md-2"><span class="glyphicon glyphicon-volume-down"> </span>                 </div>
+          <div class="col-md-2"><span class="glyphicon glyphicon-volume-down"> </span>                 </div>
+          <div class="col-md-2"><span class="glyphicon glyphicon-volume-down"> </span>                 </div>
+          <div class="col-md-2"><span class="glyphicon glyphicon-volume-down"> </span>                 </div>
+        </div>
+        <div class="row">
+         <a href="img/descarga.jpg" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-md-offset-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/10" class="img-responsive"></a>
+          <a href="img/descarga.jpg" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/9" class="img-responsive"></a>
+          <a href="img/descarga.jpg" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/8" class="img-responsive"></a>
+          <a href="img/descarga.jpg" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/7" class="img-responsive"></a>
+          <a href="img/descarga.jpg" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/6" class="img-responsive"></a>
+          <a href="img/descarga.jpg" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/5" class="img-responsive"></a>
+          <a href="img/descarga.jpg" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/4" class="img-responsive"></a>
+          <a href="img/descarga.jpg" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/3" class="img-responsive"></a>
+          <a href="img/descarga.jpg" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/2" class="img-responsive"></a>
+          <a href="img/descarga.jpg" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/1" class="img-responsive"></a>
+
+        </div>
+
 
 
 
@@ -155,6 +179,25 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/ekko-lightbox.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function ($) {
+
+        // delegate calls to data-toggle="lightbox"
+        $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+          event.preventDefault();
+          return $(this).ekkoLightbox({
+            onShown: function() {
+              if (window.console) {
+                return console.log('Checking our the events huh?');
+              }
+            }
+          });
+        });
+
+
+      });
+    </script>
   </body>
 </html>
 
