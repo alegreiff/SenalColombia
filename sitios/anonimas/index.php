@@ -15,6 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="../css/sticky-footer-navbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -58,7 +59,7 @@
                   <li class="divider"></li>
                   <li class="dropdown-header">Nav header</li>
                   <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
+                  <li><a href="#">One more separated Jimmy</a></li>
                 </ul>
               </li>
             </ul>
@@ -68,11 +69,190 @@
 
       <!-- Begin page content -->
       <div class="container">
-        <div class="page-header">
-          <h1>Sticky footer with fixed navbar</h1>
+
+        <div class="row">
+          <div class="col-md-12">
+            <img src="http://dummyimage.com/1200x150&text=Logo imagen Anónimas" alt="" class="img_responsive">
+          </div>
         </div>
-        <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added within <code>#wrap</code> with <code>padding-top: 60px;</code> on the <code>.container</code>.</p>
-        <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
+
+
+        <div class="row">
+          <nav class="navbar navbar-default navbar-static-top" role="navigation">
+            <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-8">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Danza Colombia</a></li>
+                  
+                  <li><a href="#">Sobre Anónimas extraordinarias</a></li>
+                  <li><a href="#">Nuestras anónimas</a></li>
+                  <li><a href="#">Fotógrafas</a></li>
+                  <li><a href="#">Postula tu anónima</a></li>
+                  
+                  <li><a href="#">Créditos</a></li>
+                  
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div>
+          </nav>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <div id="myCarousel" class="carousel slide">
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+              </ol>
+              <!-- Carousel items -->
+              <div class="carousel-inner">
+                <div class="active item"><img  src="http://lorempixel.com/850/350/business/2" alt="banner1" />
+                  
+                </div>
+                <div class="item"><img  src="http://dummyimage.com/850x350&text=Carrusel anónimas" alt="banner2" />
+                  
+                </div>
+                <div class="item"><img  src="http://lorempixel.com/850/350/business/4" alt="banner3" />
+                  
+                </div>
+                <div class="item"><img  src="http://lorempixel.com/850/350/business/5" alt="banner4" />
+                  
+                </div>
+                <div class="item"><img  src="http://lorempixel.com/850/350/business/6" alt="banner5" />
+                  
+                </div>
+              </div>
+              <!-- Carousel nav -->
+              <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+              <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+          </div>            
+          </div>
+          <div class="col-md-4">
+            <p class="redesSociales"> compartir en redes </p>
+            <div class="textoIntro">
+            <h3>Anónimas extraordinarias</h3>
+            <p class="alineaInferior">Reseña serie Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, nemo, optio laudantium ex corrupti maxime fugit eius suscipit molestiae fugiat officia consequuntur exercitationem ab nihil aut quasi explicabo qui a!</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- -->
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          
+
+        </div>
+        <div class="row">
+          <!-- -->
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          
+
+        </div>
+        <div class="row">
+          <!-- -->
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          
+
+        </div>
+        <div class="row">
+          <!-- -->
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          
+
+        </div>
+        <div class="row">
+          <!-- -->
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          
+          
+
+        </div>
       </div>
     </div>
 
@@ -81,6 +261,9 @@
         <p class="text-muted">Place sticky footer content here.</p>
       </div>
     </div>
+
+
+
 
 
     <!-- Bootstrap core JavaScript
