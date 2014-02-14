@@ -142,6 +142,9 @@
           </div>            
           </div>
           <div class="col-md-4">
+            <div class="socialShare">
+              compartir en redes sociales
+            </div>
             <div class="textoIntro">
             <h3>Anónimas extraordinarias</h3>
             <p class="alineaInferior">Reseña serie Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, nemo, optio laudantium ex corrupti maxime fugit eius suscipit molestiae fugiat officia consequuntur exercitationem ab nihil aut quasi explicabo qui a!</p>
