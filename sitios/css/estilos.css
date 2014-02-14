@@ -37,6 +37,19 @@
 }
 
 
+/*ANONIMAS*/
+.alineaInferior{
+	display: table-cell;
+  	vertical-align: bottom;
+  	float: none;
+}
+.{
+
+
+	
+}
+
+
 
 
 @media (max-width: 768px) {
@@ -62,6 +75,3 @@
 		}
 
 }
-
-
-
