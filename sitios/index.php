@@ -46,22 +46,11 @@
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
+              <li class="active"><a href="#">Inicio</a></li>
               <li><a href="anonimas/">Anónimas</a></li>
               <li><a href="aislados/">Aislados</a></li>
               <li><a href="danza/">Danza</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
+              
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -70,62 +59,21 @@
       <!-- Begin page content -->
       <div class="container">
         <div class="page-header">
-          <h1>Sticky footer with fixed navbar</h1>
+          <h1>Tres tristes sitios de transición</h1>
         </div>
-        <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added within <code>#wrap</code> with <code>padding-top: 60px;</code> on the <code>.container</code>.</p>
-        <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
+        
+        
       </div>
       <div class="container">
-<div class="col-md-7">
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Carousel indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>   
-    <!-- Carousel items -->
-    <div class="carousel-inner">
-        <div class="active item">
-            <img src="http://lorempixel.com/g/900/350/" alt="Slide 1">
-            <div class="carousel-caption">
-              <h3>First slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="http://lorempixel.com/g/900/350/" alt="Slide 2">
-            <div class="carousel-caption">
-              <h3>Second slide label</h3>
-              <p>Vestibulum quis quam ut magna consequat faucibus.</p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="http://lorempixel.com/g/900/350/" alt="Slide 3">
-            <div class="carousel-caption">
-              <h3>Third slide label</h3>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl.</p>
-            </div>
-        </div>
-    </div>
-    <!-- Carousel nav -->
-    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-    </a>
-    <a class="carousel-control right" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-    </a>
-</div>
-</div>
-<div class="col-md-5">Hola mundo</div>
+      <div class="col-md-7">
+
+      </div>
+      <div class="col-md-5">Hola mundo</div>
       </div>
     </div>
 
-    <div id="footer">
-      <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
-      </div>
-    </div>
+    <?php 
+    include('footer.php'); ?>
 
 
     <!-- Bootstrap core JavaScript

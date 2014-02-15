@@ -71,7 +71,7 @@
       <!-- Begin page content -->
       <div class="container">
         <div class="row visible-xs">
-          Ailados
+          Aislados
         </div>
         <div class="row hidden-xs">
           <div class="col-md-12">
@@ -116,36 +116,46 @@
             </div>            
           </div><!-- FIN md 12 -->
         </div>
-        <div class="row">
-          <div class="col-md-6 col-xs-12">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo, velit, consequuntur deserunt est ipsa commodi quae error laudantium ad porro dolore consequatur quia asperiores beatae optio repudiandae ab ratione.</p>
-          </div>
-          <div class="col-md-6 hidden-xs">
-            <div class="video-container"><iframe width="560" height="315" src="http://www.youtube.com/embed/iedqsc7Kypw" frameborder="0"></iframe>
-            </div>           
-          </div>
+
+                <div class="row">
+          <nav class="navbar navbar-default navbar-static-top" role="navigation">
+            <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-8">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Anónimas</a></li>
+                  
+                  <li><a href="#">Sobre Aislados</a></li>
+                  <li><a href="#">Nazareth</a></li>
+                  <li><a href="#">Islote</a></li>
+                  <li><a href="#">Araracuara</a></li>
+                  <li><a href="#">Providencia</a></li>
+                  <li><a href="#">Nuquí</a></li>
+                  <li><a href="#">Tumaco</a></li>
+                  <li><a href="#">Créditos</a></li>
+                  
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div>
+          </nav>
         </div>
-        <div class="row">
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="episodio.php"><img src="http://lorempixel.com/150/150/sports/1" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="episodio.php"><img src="http://placehold.it/150x150" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="episodio.php"><img src="http://lorempixel.com/150/150/sports/3" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="episodio.php"><img src="http://lorempixel.com/150/150/sports/4" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="episodio.php"><img src="http://lorempixel.com/150/150/sports/5" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
-          <div class="col-md-2 col-xs-6 col-sm-4"><a href="episodio.php"><img src="http://lorempixel.com/150/150/sports/6" class="img-thumbnail" alt=""></a><p class="text-center"><button type="button" class="btn btn-default btn-xs">Enlace cap.</button></p></div>
-        </div>
-        <div class="page-header">
-          <h1>recorrido de elementos</h1>
-        </div>
-        <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added within <code>#wrap</code> with <code>padding-top: 60px;</code> on the <code>.container</code>.</p>
-        <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
+
+
       </div>
     </div>
 
-    <div id="footer">
-      <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
-      </div>
-    </div>
+<?php include_once('../footer.php') ?>
 
 
     <!-- Bootstrap core JavaScript

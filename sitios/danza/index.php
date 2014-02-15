@@ -142,11 +142,7 @@
       </div>
     </div>
 
-    <div id="footer">
-      <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
-      </div>
-    </div>
+<?php include_once('../footer.php') ?>
 
 
     <!-- Bootstrap core JavaScript
