@@ -15,8 +15,8 @@
 
     <!-- Custom styles for this template -->
     <link href="../css/sticky-footer-navbar.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="../css/ekko-lightbox.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -106,7 +106,7 @@
           <div class="col-md-2"><span class="glyphicon glyphicon-volume-down"> </span>                 </div>
         </div>
         <div class="row">
-         <a href="img/descarga.jpg" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-md-offset-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/10" class="img-responsive"></a>
+         <a href="http://dummyimage.com/600/09f/fff.png" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-md-offset-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/10" class="img-responsive"></a>
           <a href="img/descarga.jpg" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/9" class="img-responsive"></a>
           <a href="img/descarga.jpg" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/8" class="img-responsive"></a>
           <a href="img/descarga.jpg" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/7" class="img-responsive"></a>

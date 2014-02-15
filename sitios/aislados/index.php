@@ -134,15 +134,15 @@
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8">
                 <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Anónimas</a></li>
+                  <li class="active"><a href="#">Aislados</a></li>
                   
                   <li><a href="#">Sobre Aislados</a></li>
-                  <li><a href="#">Nazareth</a></li>
-                  <li><a href="#">Islote</a></li>
-                  <li><a href="#">Araracuara</a></li>
-                  <li><a href="#">Providencia</a></li>
-                  <li><a href="#">Nuquí</a></li>
-                  <li><a href="#">Tumaco</a></li>
+                  <li><a href="episodio.php">Nazareth</a></li>
+                  <li><a href="episodio.php">Islote</a></li>
+                  <li><a href="episodio.php">Araracuara</a></li>
+                  <li><a href="episodio.php">Providencia</a></li>
+                  <li><a href="episodio.php">Nuquí</a></li>
+                  <li><a href="episodio.php">Tumaco</a></li>
                   <li><a href="#">Créditos</a></li>
                   
                 </ul>

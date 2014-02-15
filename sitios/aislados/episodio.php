@@ -8,14 +8,15 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <title>Episodio Aislados</title>
+    <title>INICIO Aislados</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="../css/sticky-footer-navbar.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/video_responsive.css">
+    <link rel="stylesheet" href="../css/ekko-lightbox.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -44,11 +45,11 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Aislados (Episodio)</a>
+            <a class="navbar-brand" href="#">Aislados</a>
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="index.php">Serie</a></li>
+              <li class="active"><a href="../index.php">Inicio</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#contact">Contact</a></li>
               <li class="dropdown">
@@ -70,90 +71,75 @@
 
       <!-- Begin page content -->
       <div class="container">
+        
         <div class="row">
           <div class="col-md-12">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Carousel indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>   
-                <!-- Carousel items -->
-                <div class="carousel-inner">
-                    <div class="active item">
-                        <img src="http://lorempixel.com/1450/350/people/1" alt="Slide 1">
-                        <div class="carousel-caption">
-                          <h3>First slide label</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="http://lorempixel.com/1450/350/people/2" alt="Slide 2">
-                        <div class="carousel-caption">
-                          <h3>Second slide label</h3>
-                          <p>Vestibulum quis quam ut magna consequat faucibus.</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="http://lorempixel.com/1450/350/people/3" alt="Slide 3">
-                        <div class="carousel-caption">
-                          <h3>Third slide label</h3>
-                          <p>Praesent commodo cursus magna, vel scelerisque nisl.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Carousel nav -->
-                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="carousel-control right" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-            </div>            
-          </div><!-- FIN md 12 -->
+            <img src="http://dummyimage.com/1200x150&text=Logo imagen AislaDOS" alt="" class="img_responsive">
+          </div>
+        </div>
+
+      <div class="row">
+          <nav class="navbar navbar-default navbar-static-top" role="navigation">
+            <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-8">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Aislados</a></li>
+                  
+                  <li><a href="#">Sobre Aislados</a></li>
+                  <li><a href="episodio.php">Nazareth</a></li>
+                  <li><a href="episodio.php">Islote</a></li>
+                  <li><a href="episodio.php">Araracuara</a></li>
+                  <li><a href="episodio.php">Providencia</a></li>
+                  <li><a href="episodio.php">Nuquí</a></li>
+                  <li><a href="episodio.php">Tumaco</a></li>
+                  <li><a href="#">Créditos</a></li>
+                  
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div>
+          </nav>
         </div>
         <div class="row">
-          <div class="col-md-1"><img src="http://lorempixel.com/150/150/sports/1" class="img-thumbnail" alt=""></div>
-          
-          <div class="col-md-3"><img src="http://lorempixel.com/450/220/sports/2" class="img-thumbnail" alt=""></div>
-
-          <div class="col-md-2"><img src="http://lorempixel.com/300/150/sports/3" class="img-thumbnail" alt=""></div>
-
-          <div class="col-md-5"><img src="http://lorempixel.com/600/90/sports/4" class="img-thumbnail" alt=""></div>
-
-          <div class="col-md-1"><img src="http://lorempixel.com/150/150/people/1" class="img-thumbnail" alt=""></div>
+          <div class="col-md-5">
+            <img src="http://dummyimage.com/500x280&text=MAPA AislaDOS" alt="" class="img_responsive">
+          </div>
+          <div class="col-md-7">
+            <p class="redesSociales"> compartir en redes </p>
+            <h3>Nombre del capítulo</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, quos reprehenderit ad quae eos dignissimos est expedita laudantium tempora. Minus provident ratione maxime soluta iure obcaecati. Molestiae dolore ducimus obcaecati!</p>
+          </div>
         </div>
         <div class="row">
-          <div class="col-md-2"><img src="http://lorempixel.com/300/150/people/2" class="img-thumbnail" alt=""></div>
-          
-          <div class="col-md-4"><img src="http://lorempixel.com/700/150/people/1" class="img-thumbnail" alt=""></div>
-
-          <div class="col-md-3"><img src="http://lorempixel.com/500/150/people/3" class="img-thumbnail" alt=""></div>
-
-          <div class="col-md-1"><img src="http://lorempixel.com/150/150/people/4" class="img-thumbnail" alt=""></div>
-
-          <div class="col-md-2"><img src="http://lorempixel.com/345/150/people/5" class="img-thumbnail" alt=""></div>
-        </div>
-
-          
-
-        <div class="row">
+         <a href="http://dummyimage.com/600/09f/fff.png" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-md-offset-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/10" class="img-responsive"></a>
+          <a href="http://dummyimage.com/500x280&text=001" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/9" class="img-responsive"></a>
+          <a href="http://dummyimage.com/500x280&text=002" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/8" class="img-responsive"></a>
+          <a href="http://dummyimage.com/500x280&text=003" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/7" class="img-responsive"></a>
+          <a href="http://dummyimage.com/500x280&text=004" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/6" class="img-responsive"></a>
+          <a href="http://dummyimage.com/500x280&text=005" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/5" class="img-responsive"></a>
+          <a href="http://dummyimage.com/500x280&text=006" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/4" class="img-responsive"></a>
+          <a href="http://dummyimage.com/500x280&text=007" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/3" class="img-responsive"></a>
+          <a href="http://dummyimage.com/500x280&text=008" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/2" class="img-responsive"></a>
+          <a href="http://dummyimage.com/500x280&text=009" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/1" class="img-responsive"></a>
 
         </div>
-        <div class="page-header">
-          <h1>recorrido de elementos</h1>
-        </div>
-        <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added within <code>#wrap</code> with <code>padding-top: 60px;</code> on the <code>.container</code>.</p>
-        <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
+
+
       </div>
     </div>
 
-    <div id="footer">
-      <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
-      </div>
-    </div>
+<?php include_once('../footer.php') ?>
 
 
     <!-- Bootstrap core JavaScript
@@ -161,6 +147,25 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/ekko-lightbox.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function ($) {
+
+        // delegate calls to data-toggle="lightbox"
+        $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+          event.preventDefault();
+          return $(this).ekkoLightbox({
+            onShown: function() {
+              if (window.console) {
+                return console.log('Checking our the events huh?');
+              }
+            }
+          });
+        });
+
+
+      });
+    </script>    
   </body>
 </html>
 
