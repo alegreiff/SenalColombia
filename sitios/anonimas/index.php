@@ -94,7 +94,7 @@
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8">
                 <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Danza Colombia</a></li>
+                  <li class="active"><a href="#">Anónimas</a></li>
                   
                   <li><a href="#">Sobre Anónimas extraordinarias</a></li>
                   <li><a href="#">Nuestras anónimas</a></li>
@@ -152,45 +152,22 @@
         <div class="row">
           <!-- -->
           <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
           </div>
           <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
           </div>
           <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
           </div>
           <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
           </div>
           <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
           </div>
           <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
-          </div>
-          
-
-        </div>
-        <div class="row">
-          <!-- -->
-          <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
-          </div>
-          <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
-          </div>
-          <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
-          </div>
-          <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
-          </div>
-          <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
-          </div>
-          <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
           </div>
           
 
@@ -198,45 +175,22 @@
         <div class="row">
           <!-- -->
           <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
           </div>
           <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
           </div>
           <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
           </div>
           <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
           </div>
           <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
           </div>
           <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
-          </div>
-          
-
-        </div>
-        <div class="row">
-          <!-- -->
-          <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
-          </div>
-          <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
-          </div>
-          <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
-          </div>
-          <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
-          </div>
-          <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
-          </div>
-          <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
           </div>
           
 
@@ -244,10 +198,56 @@
         <div class="row">
           <!-- -->
           <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
           </div>
           <div class="col-md-2 col-sm-3 col-xs-4">
-            <a href="#" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/red/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          
+
+        </div>
+        <div class="row">
+          <!-- -->
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          
+
+        </div>
+        <div class="row">
+          <!-- -->
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="episodio.php" class="thumbnail"><img src="http://dummyimage.com/120/09f/fff.png" alt="piedefoto"></a>
           </div>
           
           
