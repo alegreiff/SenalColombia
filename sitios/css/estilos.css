@@ -43,13 +43,16 @@
   	vertical-align: bottom;
   	float: none;
 }
-.miniaturas_anonimas .miniaturas_aislados{
+.miniaturas_anonimas, .miniaturas_aislados{
 margin-top: 2em;
 
 	
 }
 
-
+/*AISLADOS*/
+.miniaturas_aislados a{
+	padding: 1.2em;
+}
 
 
 @media (max-width: 768px) {
