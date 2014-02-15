@@ -99,6 +99,27 @@
                         </div>
                     </div>
                     <div class="item">
+                        <img src="img/slide01.jpg" alt="Slide 3">
+                        <div class="carousel-caption">
+                          <h3>Third slide label</h3>
+                          <p>Praesent commodo cursus magna, vel scelerisque nisl.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/slide02.jpg" alt="Slide 3">
+                        <div class="carousel-caption">
+                          <h3>Third slide label</h3>
+                          <p>Praesent commodo cursus magna, vel scelerisque nisl.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/slide03.jpg" alt="Slide 3">
+                        <div class="carousel-caption">
+                          <h3>Third slide label</h3>
+                          <p>Praesent commodo cursus magna, vel scelerisque nisl.</p>
+                        </div>
+                    </div>
+                    <div class="item">
                         <img src="img/slide03.jpg" alt="Slide 3">
                         <div class="carousel-caption">
                           <h3>Third slide label</h3>
