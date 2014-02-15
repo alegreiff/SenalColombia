@@ -95,13 +95,13 @@
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8">
                 <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Aislados</a></li>
+                  <li><a href="index.php">Aislados</a></li>
                   
                   <li><a href="#">Sobre Aislados</a></li>
                   <li><a href="episodio.php">Nazareth</a></li>
                   <li><a href="episodio.php">Islote</a></li>
                   <li><a href="episodio.php">Araracuara</a></li>
-                  <li><a href="episodio.php">Providencia</a></li>
+                  <li class="active"><a href="episodio.php">Providencia</a></li>
                   <li><a href="episodio.php">Nuquí</a></li>
                   <li><a href="episodio.php">Tumaco</a></li>
                   <li><a href="#">Créditos</a></li>
@@ -133,7 +133,20 @@
           <a href="http://dummyimage.com/500x280&text=008.png" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/2" class="img-responsive"></a>
           <a href="http://dummyimage.com/500x280&text=009.png" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/1" class="img-responsive"></a>
 
+          <a href="http://dummyimage.com/600/09f/fff.png" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-md-offset-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/10" class="img-responsive"></a>
+          <a href="http://dummyimage.com/500x280&text=001.png" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/9" class="img-responsive"></a>
+          <a href="http://dummyimage.com/500x280&text=002.png" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/8" class="img-responsive"></a>
+          <a href="http://dummyimage.com/500x280&text=003.png" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/7" class="img-responsive"></a>
+          <a href="http://dummyimage.com/500x280&text=004.png" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/6" class="img-responsive"></a>
+          <a href="http://dummyimage.com/500x280&text=005.png" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/5" class="img-responsive"></a>
+          <a href="http://dummyimage.com/500x280&text=006.png" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/4" class="img-responsive"></a>
+          <a href="http://dummyimage.com/500x280&text=007.png" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/3" class="img-responsive"></a>
+          <a href="http://dummyimage.com/500x280&text=008.png" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/2" class="img-responsive"></a>
+          <a href="http://dummyimage.com/500x280&text=009.png" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/1" class="img-responsive"></a>         
+
+
         </div>
+
 
 
       </div>
