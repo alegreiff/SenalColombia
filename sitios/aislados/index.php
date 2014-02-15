@@ -81,13 +81,16 @@
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
                 </ol>   
                 <!-- Carousel items -->
                 <div class="carousel-inner">
                     <div class="active item">
                         <img src="img/slide01.jpg" alt="Slide 1">
                         <div class="carousel-caption">
-                          <h3>First slide label</h3>
+                          <h3>hdjashdj ag dhg dhjasj</h3>
                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
