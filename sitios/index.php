@@ -88,17 +88,27 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script>
-$.getJSON('http://nuestrapolla.com/apps/menu/index.php', function(external) {
-    var output="<ul>";
-    for (var i = 0; i < external.data.results.length; i++) {
-        output+="<li>" + external.data.results[i].html + "</li>";
-    }
 
-    output+="</ul>";
-    document.getElementById("placeholder").innerHTML=output;
+    <script>
+    <script type="text/javascript">
+(function ($) {
+$(document).ready(function(){
+$.getJSON("http://nuestrapolla.com/apps/menu/index.php",
+  {
+    tags: "awesome",
+    tagmode: "any",
+    format: "json"
+  },
+  function(data) {
+    $.each(data.items, function(i,item){
+      $("<img/>").attr("src", item.media.m).appendTo("#placeholder");
+      if ( i == 3 ) return false;
+    });
+  });
 });
-    </script>
+})(jQuery);
+</script>
+</script>
   </body>
 </html>
 
