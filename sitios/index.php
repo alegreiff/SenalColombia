@@ -112,9 +112,9 @@
     }
  
     function mainfunction(data) {
-           //console.log(data);
+           console.log(data);
            //Your main cross domain function here.
-           <?php $r = json_decode(data); ?>
+
     }
 </script>
 
