@@ -90,7 +90,7 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
 
     <script>
-    <script type="text/javascript">
+
 (function ($) {
 $(document).ready(function(){
 $.getJSON("http://nuestrapolla.com/apps/menu/index.php",
@@ -108,7 +108,7 @@ $.getJSON("http://nuestrapolla.com/apps/menu/index.php",
 });
 })(jQuery);
 </script>
-</script>
+
   </body>
 </html>
 
