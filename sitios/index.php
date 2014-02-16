@@ -27,6 +27,7 @@
   </head>
 
   <body>
+    <?php include('http://www.nuestrapolla.com/apps/menu/index.php') ?>
 
     <!-- Wrap all page content here -->
     <div id="wrap">
