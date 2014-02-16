@@ -31,13 +31,7 @@
 
     <!-- Wrap all page content here -->
     <div id="wrap">
-    <div class="row">
-      <div class="col-md-12">
-        <div id="placeholder">
-          Hola
-        </div>
-      </div>
-    </div>
+
       <!-- Fixed navbar -->
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
 
@@ -72,6 +66,13 @@
         
       </div>
       <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="placeholder">
+            Hola
+          </div>
+        </div>
+      </div>
       <div class="col-md-7">
 
       </div>
@@ -96,7 +97,7 @@
   var items = [];
   console.log(data);
   $.each( data, function( key, val ) {
-    items.push( "<li id='" + key + "'>ja ja " + val + "</li>" );
+    items.push( "<li id='" + key + "'>" + val + "</li>" );
   });
  
   $( "<ul/>", {
