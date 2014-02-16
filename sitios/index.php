@@ -112,7 +112,7 @@
     }
  
     function mainfunction(data) {
-           console.log(data);
+           console.log(JSON.parse(data));
            //Your main cross domain function here.
 
     }
