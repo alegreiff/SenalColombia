@@ -33,7 +33,7 @@
     <div id="wrap">
     <div class="row">
       <div class="col-md-12">
-        <div class="placeholder">
+        <div id="placeholder">
           Hola
         </div>
       </div>
