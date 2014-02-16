@@ -27,11 +27,17 @@
   </head>
 
   <body>
-    <?php include('http://www.nuestrapolla.com/apps/menu/index.php') ?>
+    
 
     <!-- Wrap all page content here -->
     <div id="wrap">
-
+    <div class="row">
+      <div class="col-md-12">
+        <div class="placeholder">
+          Hola
+        </div>
+      </div>
+    </div>
       <!-- Fixed navbar -->
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
 
@@ -82,6 +88,17 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script>
+    $.getJSON('http://externalurl.com', function(external) {
+    var output="<ul>";
+    for (var i = 0; i < external.data.results.length; i++) {
+        output+="<li>" + external.data.results[i].html + "</li>";
+    }
+
+    output+="</ul>";
+    document.getElementById("placeholder").innerHTML=output;
+  });
+    </script>
   </body>
 </html>
 
