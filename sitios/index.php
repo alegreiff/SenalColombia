@@ -112,8 +112,8 @@
     }
  
     function mainfunction(data) {
-      var data = $.parseJSON(data);
-           console.log(data);
+      var datax = $.parseJSON(data);
+           console.log(datax);
            //Your main cross domain function here.
 
     }
