@@ -96,7 +96,7 @@
   var items = [];
   console.log(data);
   $.each( data, function( key, val ) {
-    items.push( "<li id='" + key + "'>" + val + "</li>" );
+    items.push( "<li id='" + key + "'>ja ja " + val + "</li>" );
   });
  
   $( "<ul/>", {
