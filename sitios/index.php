@@ -92,31 +92,17 @@
     <script>
 
     var url = "http://nuestrapolla.com/apps/menu/index.php";
-    var browser = navigator.userAgent;
-    var IEversion = 99; //Give a default value for non-IE browsers
-     
-    if (browser.indexOf("MSIE") > 1) { //Detects if IE
-        IEversion = parseInt(browser.substr(browser.indexOf("MSIE")+5, 5));
-    }
-    if (IEversion < 10) {                
-        xdr = new XDomainRequest();   // Creates a new XDR object.
-        xdr.open("GET", url); // Creates a cross-domain connection with our target server using GET method. 
-        xdr.send(); //Send string data to server
-        xdr.onload = function () { //After load, parse data returned by xdr.responseText            
-            mainfunction($.parseJSON(xdr.responseText));
-        };              
-    } else {
-        $.getJSON(url, function(data) {
-            mainfunction(data);
-        })
-    }
+    $.getJSON( url, function( data ) {
+  var items = [];
+  $.each( data, function( key, val ) {
+    items.push( "<li id='" + key + "'>" + val + "</li>" );
+  });
  
-    function mainfunction(data) {
-      
-           console.log(data);
-           //Your main cross domain function here.
-
-    }
+  $( "<ul/>", {
+    "class": "my-new-list",
+    html: items.join( "" )
+  }).appendTo( "placeholder" );
+});
 </script>
 
   </body>
