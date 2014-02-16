@@ -89,7 +89,7 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script>
-    $.getJSON('http://externalurl.com', function(external) {
+    $.getJSON('http://www.nuestrapolla.com/apps/menu/index.php', function(external) {
     var output="<ul>";
     for (var i = 0; i < external.data.results.length; i++) {
         output+="<li>" + external.data.results[i].html + "</li>";
