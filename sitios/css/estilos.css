@@ -78,3 +78,15 @@ margin-top: 2em;
 		}
 
 }
+
+#carrusel_home_aislados .carousel-caption {
+
+	left: 10%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+ol.carousel-indicators{
+	position: absolute;
+	bottom: 0;
+}

@@ -16,6 +16,7 @@
     <!-- Custom styles for this template -->
     <link href="../css/sticky-footer-navbar.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/video_responsive.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -75,73 +76,73 @@
         </div>
         <div class="row hidden-xs">
           <div class="col-md-12">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div id="carrusel_home_aislados" class="carousel slide" data-ride="carousel">
                 <!-- Carousel indicators -->
                 <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                    <li data-target="#myCarousel" data-slide-to="4"></li>
-                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#carrusel_home_aislados" data-slide-to="0" class="active"></li>
+                    <li data-target="#carrusel_home_aislados" data-slide-to="1"></li>
+                    <li data-target="#carrusel_home_aislados" data-slide-to="2"></li>
+                    <li data-target="#carrusel_home_aislados" data-slide-to="3"></li>
+                    <li data-target="#carrusel_home_aislados" data-slide-to="4"></li>
+                    <li data-target="#carrusel_home_aislados" data-slide-to="5"></li>
                 </ol>   
                 <!-- Carousel items -->
                 <div class="carousel-inner">
                     <div class="active item">
                         <img src="img/slide01.jpg" alt="Slide 1">
                         <div class="carousel-caption">
-                          <h3>hdjashdj ag dhg dhjasj</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          <h3>{Nombre del capítulo} UNO</h3>
+                          <p>{Sinopsis del capítulo UNO} {La imagen es la principal del capítulo}</p>
                         </div>
                     </div>
                     <div class="item">
                         <img src="img/slide02.jpg" alt="Slide 2">
                         <div class="carousel-caption">
-                          <h3>Second slide label</h3>
-                          <p>Vestibulum quis quam ut magna consequat faucibus.</p>
+                         <h3>{Nombre del capítulo} DOS</h3>
+                          <p>{Sinopsis del capítulo DOS} {La imagen es la principal del capítulo}</p>
                         </div>
                     </div>
                     <div class="item">
                         <img src="img/slide01.jpg" alt="Slide 3">
                         <div class="carousel-caption">
-                          <h3>Third slide label</h3>
-                          <p>Praesent commodo cursus magna, vel scelerisque nisl.</p>
+                          <h3>{Nombre del capítulo} TRES</h3>
+                          <p>{Sinopsis del capítulo TRES} {La imagen es la principal del capítulo}</p>
                         </div>
                     </div>
                     <div class="item">
                         <img src="img/slide02.jpg" alt="Slide 3">
                         <div class="carousel-caption">
-                          <h3>Third slide label</h3>
-                          <p>Praesent commodo cursus magna, vel scelerisque nisl.</p>
+                          <h3>{Nombre del capítulo} CUATRO</h3>
+                          <p>{Sinopsis del capítulo CUATRO} {La imagen es la principal del capítulo}</p>
                         </div>
                     </div>
                     <div class="item">
                         <img src="img/slide03.jpg" alt="Slide 3">
                         <div class="carousel-caption">
-                          <h3>Third slide label</h3>
-                          <p>Praesent commodo cursus magna, vel scelerisque nisl.</p>
+                          <h3>{Nombre del capítulo} CINCO</h3>
+                          <p>{Sinopsis del capítulo CINCO} {La imagen es la principal del capítulo}</p>
                         </div>
                     </div>
                     <div class="item">
                         <img src="img/slide03.jpg" alt="Slide 3">
                         <div class="carousel-caption">
-                          <h3>Third slide label</h3>
-                          <p>Praesent commodo cursus magna, vel scelerisque nisl.</p>
+                          <h3>{Nombre del capítulo} SEIS</h3>
+                          <p>{Sinopsis del capítulo SEIS} {La imagen es la principal del capítulo}</p>
                         </div>
                     </div>
                 </div>
                 <!-- Carousel nav -->
-                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                <a class="carousel-control left" href="#carrusel_home_aislados" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left"></span>
                 </a>
-                <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                <a class="carousel-control right" href="#carrusel_home_aislados" data-slide="next">
                     <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
             </div>            
           </div><!-- FIN md 12 -->
         </div>
 
-                <div class="row">
+        <div class="row">
           <nav class="navbar navbar-default navbar-static-top" role="navigation">
             <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
             <div class="container-fluid">
@@ -160,20 +161,62 @@
                 <ul class="nav navbar-nav">
                   <li class="active"><a href="#">Aislados</a></li>
                   
-                  <li><a href="#">Sobre Aislados</a></li>
-                  <li><a href="episodio.php">Nazareth</a></li>
-                  <li><a href="episodio.php">Islote</a></li>
-                  <li><a href="episodio.php">Araracuara</a></li>
-                  <li><a href="episodio.php">Providencia</a></li>
-                  <li><a href="episodio.php">Nuquí</a></li>
-                  <li><a href="episodio.php">Tumaco</a></li>
-                  <li><a href="#">Créditos</a></li>
+                  <li><a href="#" data-toggle="modal" data-target="#datos_serie">Sobre Aislados</a></li>
+                  <li><a href="episodio.php?id=1">Nazareth</a></li>
+                  <li><a href="episodio.php?id=2">Islote</a></li>
+                  <li><a href="episodio.php?id=3">Araracuara</a></li>
+                  <li><a href="episodio.php?id=4">Providencia</a></li>
+                  <li><a href="episodio.php?id=5">Nuquí</a></li>
+                  <li><a href="episodio.php?id=6">Tumaco</a></li>
+                  <li><a href="#" data-toggle="modal" data-target="#creditos_serie">Créditos</a></li>
                   
                 </ul>
               </div><!-- /.navbar-collapse -->
             </div>
           </nav>
         </div>
+        <div class="row">
+          <!-- Modal Sobre AISLADOS-->
+          <div class="modal fade" id="datos_serie" tabindex="-1" role="dialog" aria-labelledby="etiquetaModal" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title" id="etiquetaModal">Sobre {NOMBRE SERIE}</h4>
+                </div>
+                <div class="modal-body">
+                  {SINOPSIS SERIE}
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div><!-- Fin Ventana modal Sobre AISLADOS-->
+
+
+          <!-- Modal Créditos-->
+          <div class="modal fade" id="creditos_serie" tabindex="-1" role="dialog" aria-labelledby="etiquetaModal" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title" id="etiquetaModal">Créditos {NOMBRE SERIE}</h4>
+                </div>
+                <div class="modal-body">
+                  {FICHA TÉCNICA SERIE}
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div><!-- Fin Ventana modal créditos-->
+
+
+        </div>  
 
 
       </div>
