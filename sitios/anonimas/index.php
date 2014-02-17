@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -96,12 +96,12 @@
                 <ul class="nav navbar-nav">
                   <li class="active"><a href="#">Anónimas</a></li>
                   
-                  <li><a href="#">Sobre Anónimas extraordinarias</a></li>
+                  <li><a href="#" data-toggle="modal" data-target="#datos_serie">Sobre Anónimas extraordinarias</a></li>
                   <li><a href="#">Nuestras anónimas</a></li>
                   <li><a href="#">Fotógrafas</a></li>
                   <li><a href="#">Postula tu anónima</a></li>
                   
-                  <li><a href="#">Créditos</a></li>
+                  <li><a href="#" data-toggle="modal" data-target="#creditos_serie">Créditos</a></li>
                   
                 </ul>
               </div><!-- /.navbar-collapse -->
@@ -144,8 +144,8 @@
           <div class="col-md-4">
             <p class="redesSociales"> compartir en redes </p>
             <div class="textoIntro">
-            <h3>Anónimas extraordinarias</h3>
-            <p class="alineaInferior">Reseña serie Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, nemo, optio laudantium ex corrupti maxime fugit eius suscipit molestiae fugiat officia consequuntur exercitationem ab nihil aut quasi explicabo qui a!</p>
+            <h3>{NOMBRE SERIE}</h3>
+            <p class="alineaInferior">{SINOPSIS SERIE}</p>
             </div>
           </div>
         </div>
@@ -251,6 +251,48 @@
           </div>
           
           
+
+        </div>
+        <div class="row">
+          <!-- Modal Sobre anónimas extraordinarias-->
+          <div class="modal fade" id="datos_serie" tabindex="-1" role="dialog" aria-labelledby="etiquetaModal" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title" id="etiquetaModal">Sobre {NOMBRE SERIE}</h4>
+                </div>
+                <div class="modal-body">
+                  {SINOPSIS SERIE}
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div><!-- Fin Ventana modal Sobre anónimas extraordinarias-->
+
+
+          <!-- Modal Créditos-->
+          <div class="modal fade" id="creditos_serie" tabindex="-1" role="dialog" aria-labelledby="etiquetaModal" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title" id="etiquetaModal">Créditos {NOMBRE SERIE}</h4>
+                </div>
+                <div class="modal-body">
+                  {FICHA TÉCNICA SERIE}
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div><!-- Fin Ventana modal créditos-->
+
 
         </div>
       </div>

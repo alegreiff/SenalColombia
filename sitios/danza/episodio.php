@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -62,16 +62,16 @@
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8">
                 <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Danza Colombia</a></li>
+                  <li class="active"><a href="index.php">Danza Colombia</a></li>
                   
-                  <li><a href="#">Sobre trayecto Magdalena</a></li>
-                  <li><a href="#">Origen</a></li>
-                  <li><a href="#">Encuentros</a></li>
-                  <li><a href="#">Mestizajes</a></li>
-                  <li><a href="#">Corrientes</a></li>
-                  <li><a href="#">Fuego</a></li>
-                  <li><a href="#">Créditos</a></li>
-                  <li><a href="#">Otros trayectos</a></li>
+                 <li><a href="#" data-toggle="modal" data-target="#datos_serie">Sobre trayecto Magdalena</a></li>
+                  <li><a href="episodio.php?id=1">Origen</a></li>
+                  <li><a href="episodio.php?id=2">Encuentros</a></li>
+                  <li><a href="episodio.php?id=3">Mestizajes</a></li>
+                  <li><a href="episodio.php?id=4">Corrientes</a></li>
+                  <li><a href="episodio.php?id=5">Fuego</a></li>
+                  <li><a href="#" data-toggle="modal" data-target="#creditos_serie">Créditos</a></li>
+                  <li><a href="http://www.senalcolombia.tv/index.php?option=com_programas&view=micrositio&id_serie=405&Itemid=1" target="_self">Otros trayectos</a></li>
                 </ul>
               </div><!-- /.navbar-collapse -->
             </div>
@@ -94,8 +94,9 @@
           </div>
           <div class="col-md-6 col-xs-12">
             <p class="redesSociales"> compartir en redes </p>
+            <h3>{NOMBRE CAPÍTULO}</h3>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, minus, voluptatibus, necessitatibus quas nulla quasi reiciendis possimus numquam repellat ea libero eligendi dignissimos. Quaerat, veniam praesentium alias doloremque error cupiditate.</p>
+            <p>{SINOPSIS CAPÍTULO}</p>
           </div>
         </div>
         <div class="row">
@@ -118,20 +119,48 @@
           <a href="img/descarga.jpg" data-toggle="lightbox" data-gallery="galeria_episodio" data-title="A random title" data-footer="A custom footer text" class="col-md-1 col-sm-3 col-xs-4"><img src="http://lorempixel.com/123/123/people/1" class="img-responsive"></a>
 
         </div>
+        <div class="row">
+          <!-- Modal Sobre Danza Colombia trayecto río Magdalena-->
+          <div class="modal fade" id="datos_serie" tabindex="-1" role="dialog" aria-labelledby="etiquetaModal" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title" id="etiquetaModal">Sobre {NOMBRE SERIE}</h4>
+                </div>
+                <div class="modal-body">
+                  {SINOPSIS SERIE}
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div><!-- Fin Ventana modal Sobre trayecto río Magdalena-->
 
 
+          <!-- Modal Créditos-->
+          <div class="modal fade" id="creditos_serie" tabindex="-1" role="dialog" aria-labelledby="etiquetaModal" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title" id="etiquetaModal">Créditos {NOMBRE SERIE}</h4>
+                </div>
+                <div class="modal-body">
+                  {FICHA TÉCNICA SERIE}
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div><!-- Fin Ventana modal créditos-->
 
 
-
-
-
-
-
-        <div class="page-header">
-          <h1>Sticky footer with fixed navbar</h1>
-        </div>
-        <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added within <code>#wrap</code> with <code>padding-top: 60px;</code> on the <code>.container</code>.</p>
-        <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
+        </div>        
       </div>
     </div>
 <?php include_once('../footer.php') ?>

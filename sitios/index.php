@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -60,7 +60,7 @@
       <!-- Begin page content -->
       <div class="container">
         <div class="page-header">
-          <h1>Tres tristes sitios de transición</h1>
+          <h1>TRES SITIOS</h1>
         </div>
         
         
@@ -69,14 +69,15 @@
       <div class="row">
         <div class="col-md-12">
           <div id="placeholder">
-            Hola
+            
           </div>
         </div>
       </div>
-      <div class="col-md-7">
-
-      </div>
-      <div class="col-md-5">Hola mundo</div>
+     <div class="row">
+       <div class="col-md-4"><a href="anonimas" class="btn btn-primary btn-block">Anónimas</a></div>
+       <div class="col-md-4"><a href="aislados" class="btn btn-primary btn-block">Aislados</a></div>
+       <div class="col-md-4"><a href="danza" class="btn btn-primary btn-block">Danza</a></div>
+     </div>
       </div>
     </div>
 
